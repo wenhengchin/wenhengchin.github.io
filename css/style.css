@@ -1,0 +1,54 @@
+.profilePic{
+	width: 100%;
+}
+.linkedinIcon{
+	color: #4875B4;
+}
+body{
+	
+}
+.aboutBackground{
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+}
+.card {margin-top: 10px;
+}
+.header1{
+	color
+}
+h1{
+	font-family:'Anton';
+}
+.profileText{
+	font-family: 'Anton';
+}
+.skills{
+	font-size: 80%;
+}
+.customNav{
+	background-color: black;
+}
+
+.homeBackground{
+	position: fixed;
+	right:0;
+	bottom: 0;
+	width: auto;
+	min-width: 100%;
+	height: auto;
+	min-height: 100%;
+	background-size: cover;
+	z-index: -100;
+}
+/*viewport shifts everything relative to the site*/
+.stretchRow{
+	height: 100vh;
+}
+.middleColumn{
+	margin:auto;
+}
+
+.mainTitle{
+	font-size: 900%;
+	color: white;
+}
