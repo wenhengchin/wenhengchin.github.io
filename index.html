@@ -1,39 +1,125 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>Home</title>
-	<title>About me</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Anton|Bitter" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="img/blue-icon.png">
+
+  <!-- Bootstrap Core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom Fonts -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+  
+  <title>Wen Heng Chin</title>  
 </head>
+
 <body>
-	<video class="homeBackground" autoplay loop muted preload="true">
-		<source src="img/homeBackground.mp4" type="video/mp4">
-	</video>
-	<nav class="navbar navbar-toggleable-md customNav">
-		<div class="container">
-			<ul class="nav navbar-nav">
-				<li class="nav-item">
-					<a href="index.html" class="nav-link">Home</a>
-				</li>
-				<li class="nav-item">
-					<a href="about.html" class="nav-link">About</a>
-	</nav>
-	<div class="container">
-		<div class="row stretchRow">
-			<!-- This is my column that is 4 wide -->
-			<div class="col-md-12 middleColumn">
-				<div class="text-center">
-					<div class="text-block">
-						<h1 class="mainTitle">Attract Customers.</h1>
-					</div>
-				</div>	
-			</div>
-	 	</div>				
-			
-	</div>
+  <!-- This is my navbar-->
+  <nav class="navbar-header navbar navbar-expand-md bg-white navbar-light fixed-top">
+      <!--Mobile Menu --> 
+    <div>
+      <button class="navbar-toggle collapsed d-md-none" data-toggle="collapse" data-target="#dropdownMenu">MENU</button>   
+      <a href="/index.html" class="navbar-brand"> 
+          <img src="img/logo.png" alt="Wen Heng Chin" class="float-right" style="height: 35px"><br><h2 class="logo-subtitle">Content Strategist & Consultant</h2>
+        </a>
+    </div>
+    <!-- Links -->
+    <div class="collapse navbar-collapse" id="dropdownMenu">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">WORK</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">BLOG</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">CONTACT</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!-- Portfolio -->
+  <header class="content-section" id="portfolio">
+    
+      <div class="row no-gutters">
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#!">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">Eurotherm by Schneider Electric</div>
+                <p class="mb-0">Content Strategy</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio-1.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#!">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">Limit Jeans</div>
+                <p class="mb-0">Creative Campaign</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio-2.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#!">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">University of Sussex</div>
+                <p class="mb-0">Service Design</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio-3.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-6">
+          <a class="portfolio-item" href="#!">
+            <div class="caption">
+              <div class="caption-content">
+                <div class="h2">Tyson Foods</div>
+                <p class="mb-0">Marketing Strategy</p>
+              </div>
+            </div>
+            <img class="img-fluid" src="img/portfolio-4.jpg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+ 
+  <!-- Scroll to Top Button-->
+  <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+    <i class="fas fa-angle-up"></i>
+  </a>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/stylish-portfolio.min.js"></script>
+
 </body>
+
 </html>
